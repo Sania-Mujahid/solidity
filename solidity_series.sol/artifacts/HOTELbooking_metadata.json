@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_series.sol/hotelbooking.sol": "HOTELbooking"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_series.sol/hotelbooking.sol": {
+			"keccak256": "0x62bb5d0c9e57042778be601fdb2f4a63111531b24ec676d38522a93ab6acf3db",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://76b3e26165a704f6b42ebd9538d8c91d339c4269ed25930e90b61cfe5159b87d",
+				"dweb:/ipfs/QmZX1NUnA4nyW6FHANtPHkPJtYVzLyrJXgQ317dgKSRYhG"
+			]
+		}
+	},
+	"version": 1
+}
