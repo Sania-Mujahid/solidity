@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tranferether",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab-payable.sol": "payables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab-payable.sol": {
+			"keccak256": "0x3e56170dcdb3ee885a8c98ca4340815f1c2ddf1e332e8a240a30ef388cf68e19",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4bdaf1165b4840500c382f72fff68b28b6ccc9f41dd903d8c10a559769b436ba",
+				"dweb:/ipfs/QmabeWgKMUiZ9TNQsiNwHAoUmQXkWUnJFwKg6k6TGgfNHU"
+			]
+		}
+	},
+	"version": 1
+}

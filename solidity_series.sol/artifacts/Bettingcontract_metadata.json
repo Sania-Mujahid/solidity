@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "bet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Bettingcontract.bettingteam",
+						"name": "team",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_series.sol/betting-contract.sol": "Bettingcontract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_series.sol/betting-contract.sol": {
+			"keccak256": "0x900c82057fb0d73ee6988637c68f5f8c3096946ab1ff6b0edc9d5991f31ede46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8d74e64f7f011f4eba705bc7a56f3a9cf68537023e90529a6e21d733c47da28f",
+				"dweb:/ipfs/QmcWG8JWiFqZaRdiJUeuNRRVBGjMFL67iQmXfD2KeoJZDL"
+			]
+		}
+	},
+	"version": 1
+}

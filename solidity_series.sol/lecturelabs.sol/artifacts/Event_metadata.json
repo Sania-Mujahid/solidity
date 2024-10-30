@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "AnotherLog",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "msg",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_series.sol/lecturelabs.sol/lab-events.sol": "Event"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_series.sol/lecturelabs.sol/lab-events.sol": {
+			"keccak256": "0x767df7fc5b2bec3e585ec6e2e2f41935918505fc85de7f99ee88cd920651c8da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07b3722d071a6f39ee6693aec7c78295f33abace8dc193feb7fb73b3e79cadca",
+				"dweb:/ipfs/QmXVVLZhfifAT7yn6gSu4fbgYnQbKrMa1MpEfXoSLauFot"
+			]
+		}
+	},
+	"version": 1
+}
